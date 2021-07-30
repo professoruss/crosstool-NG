@@ -1,5 +1,5 @@
 # Build script for expat
-
+set -x
 do_expat_get() { :; }
 do_expat_extract() { :; }
 do_expat_for_build() { :; }
