@@ -6,6 +6,7 @@ do_expat_for_build() { :; }
 do_expat_for_host() { :; }
 do_expat_for_target() { :; }
 CT_EXPAT_VERSION='2.4.1'
+echo $CT_EXPAT_VERSION
 if [ "${CT_EXPAT_TARGET}" = "y" -o "${CT_EXPAT}" = "y" ]; then
 
 do_expat_get() {
