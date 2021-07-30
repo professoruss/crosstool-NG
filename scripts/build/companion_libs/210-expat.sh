@@ -11,7 +11,8 @@ if [ "${CT_EXPAT_TARGET}" = "y" -o "${CT_EXPAT}" = "y" ]; then
 do_expat_get() {
 #    CT_GetFile "expat-${CT_EXPAT_VERSION}" .tar.gz    \
     CT_GetFile "expat-2.4.1" .tar.gz    \
-               http://downloads.sourceforge.net/project/expat/expat/${CT_EXPAT_VERSION}
+#               http://downloads.sourceforge.net/project/expat/expat/${CT_EXPAT_VERSION}
+https://github.com/libexpat/libexpat/releases/download/R_2_4_1/${CT_EXPAT_VERSION}
 }
 
 do_expat_extract() {
